@@ -1,0 +1,225 @@
+/* sec 1 */
+body{
+    font-family: 'Rubik' , sans-serif;
+}
+nav , .sec2 , .sec3 , .sec4 , .sec5 , .sec6 , .sec7, .sec9{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 90px;
+}
+nav a ,.sec9 .p1 .pp1 a {
+    text-decoration: none;
+    color: black;
+}
+.b2{
+    color: red;
+    margin-left: 30px;
+    border: 1px solid red;
+    padding: 8px 30px;
+    border-radius: 50px;
+}
+.navLogo , .sec9 .p1 .pp1 a{
+    float: left;
+    margin-top: 13px;
+}
+nav img , .sec9 .p1 .pp1 img{
+    float: left;
+    margin-top: 13px;
+    margin-right: 5px;
+}
+nav .navbar li{
+    float: left;
+    list-style: none;
+    margin-right: 25px;
+}
+nav .navbar{
+    float: left;
+    margin-left: 25%;
+    margin-top: 18px;
+    padding: 0;
+}
+nav .button{
+    float: right;
+    margin-top: 18px;
+}
+.clr{
+    clear: both;
+}
+
+/* sec 2 */
+.sec2 .p1 button{
+    padding: 11px 53px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(248, 69, 69);
+    color: white;
+    margin-top: 20px;
+}
+.sec2 .p1{
+    float: left;
+    width: 50%;
+}
+.sec2 .p2{
+    float: right;
+}
+.sec2 img{
+    width: 500px;
+    padding-right: 85px;
+}
+.sec2 p , .sec4 p , .sec5 p , .sec6 p , .sec7 .pp2 , .sec7 .p1 p , .sec9 .p1 p{
+    color: rgba(0, 0, 0, .6);
+}
+
+/* sec 3 */
+.sec3 {
+    width: 75%;
+    margin-left: 270px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.sec3 .p1 , .sec3 .p2 ,.sec3 .p3{
+    float: left;
+    width: 33.33%;
+}
+.sec3 .pp1 , .sec3 .pp2{
+    float: left;
+}
+.sec3 .pp1{
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+/* sec 4 */
+.sec4 .p1{
+    float: left;
+}
+.sec4 .p2{
+    float: right;
+    width: 50%;
+
+}
+.sec4 img{
+    width: 450px;
+    padding-left: 55px;
+}
+
+/* sec 5 */
+.sec5 .p2 , .sec5 .p3 , .sec5 .p4{
+    float: left;
+    width: 30%;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    height: 600px;
+    position: relative;
+    border-radius: 10px;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(13, 16, 37, .09);
+}
+.sec5 .pp1 , .sec5 .pp3{
+    text-align: center;
+}
+.sec5 .pp2{
+    margin: 50px;
+}
+.sec5 .pp3 h3 , .sec5 .pp3 p{
+    display: inline-block;
+}
+.sec5 .pp3 a{
+    text-decoration: none;
+    width: 150px;
+    color: red;
+    border: 1.3px solid red;
+    padding: 9px;
+    border-radius: 50px;
+    font-weight: bold;
+    display: block;
+    margin-left: 100px;
+}
+.sec5 .card , .sec7 .card{
+    margin-top: 60px;
+}
+.sec5 .pp3{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* sec 7 */
+.sec7 .p2 , .sec7 .p3 , .sec7 .p4{
+    float: left;
+    width: 25%;
+    margin: 0 4%;
+    box-sizing: border-box;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(13, 16, 37, .09);
+}
+.sec7 .pp1 img , .sec7 .pp1 .heading{
+    float: left;
+    margin-right: 12px;
+}
+.sec7 .pp1 p{
+    float: right;
+    margin-top: 35px;
+}
+.sec7 .pp1{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.sec7 .pp1 img{
+    margin-right: 12px;
+    margin-top: 38px;
+}
+
+/* sec 8 */
+.sec8 a{
+    text-decoration: none;
+    width: 150px;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    float: right;
+    background-color: rgb(246, 22, 22);
+    margin-right: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+.sec8 .p1{
+    float: left;
+    margin-left: 200px;
+}
+.sec8{
+    width: 75%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+/* sec 9 */
+.sec9 .pp1{
+    font-weight: bold;
+}
+.sec9 .p1 .pp3 img{
+    margin: 25px 40px 40px 0;
+}
+.sec9 li{
+    list-style: none;
+    margin: 20px 0;
+    color: rgba(0, 0, 0, .8);
+}
+.sec9 h4{
+    margin-left: 19px;
+}
+.sec9 .p1 , .sec9 .p2 , .sec9 .p3 , .sec9 .p4{
+    float: left;
+    width: 25%;
+}
+.sec9 .p1 .pp2{
+    margin-top: 25px;
+}
